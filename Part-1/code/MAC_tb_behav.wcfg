@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MAC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MAC_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="405.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="810.001 ns"></ZoomEndTime>
+      <Cursor1Time time="448.800 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/MAC_tb/ctrl" type="logic">
+      <obj_property name="ElementShortName">ctrl</obj_property>
+      <obj_property name="ObjectShortName">ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/clk25" type="logic">
+      <obj_property name="ElementShortName">clk25</obj_property>
+      <obj_property name="ObjectShortName">clk25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/d1" type="array">
+      <obj_property name="ElementShortName">d1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/d2" type="array">
+      <obj_property name="ElementShortName">d2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/accum" type="array">
+      <obj_property name="ElementShortName">accum[20:0]</obj_property>
+      <obj_property name="ObjectShortName">accum[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/accumout1" type="array">
+      <obj_property name="ElementShortName">accumout1[20:0]</obj_property>
+      <obj_property name="ObjectShortName">accumout1[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/data1" type="array">
+      <obj_property name="ElementShortName">data1[20:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MAC_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

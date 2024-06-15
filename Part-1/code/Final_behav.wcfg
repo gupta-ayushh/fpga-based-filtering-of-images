@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Final_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Final" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,200.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,200.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/Final/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/HSYNC" type="logic">
+      <obj_property name="ElementShortName">HSYNC</obj_property>
+      <obj_property name="ObjectShortName">HSYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/VSYNC" type="logic">
+      <obj_property name="ElementShortName">VSYNC</obj_property>
+      <obj_property name="ObjectShortName">VSYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/vgaRed" type="array">
+      <obj_property name="ElementShortName">vgaRed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaRed[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/vgaBlue" type="array">
+      <obj_property name="ElementShortName">vgaBlue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaBlue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/vgaGreen" type="array">
+      <obj_property name="ElementShortName">vgaGreen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaGreen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_data_in" type="array">
+      <obj_property name="ElementShortName">ram_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_data_out" type="array">
+      <obj_property name="ElementShortName">ram_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_address" type="array">
+      <obj_property name="ElementShortName">ram_address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_address[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_data_in1" type="array">
+      <obj_property name="ElementShortName">ram_data_in1[20:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_in1[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_data_out1" type="array">
+      <obj_property name="ElementShortName">ram_data_out1[20:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_out1[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram_address1" type="array">
+      <obj_property name="ElementShortName">ram_address1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_address1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/result" type="array">
+      <obj_property name="ElementShortName">result[20:0]</obj_property>
+      <obj_property name="ObjectShortName">result[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/filter_data" type="array">
+      <obj_property name="ElementShortName">filter_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/filter_address" type="array">
+      <obj_property name="ElementShortName">filter_address[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_address[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/rom_data" type="array">
+      <obj_property name="ElementShortName">rom_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/rom_address" type="array">
+      <obj_property name="ElementShortName">rom_address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_address[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/write_enable" type="logic">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/write_enable1" type="logic">
+      <obj_property name="ElementShortName">write_enable1</obj_property>
+      <obj_property name="ObjectShortName">write_enable1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/clk25" type="logic">
+      <obj_property name="ElementShortName">clk25</obj_property>
+      <obj_property name="ObjectShortName">clk25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/rom_values" type="array">
+      <obj_property name="ElementShortName">rom_values[0:4095]</obj_property>
+      <obj_property name="ObjectShortName">rom_values[0:4095]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/rom_filled" type="logic">
+      <obj_property name="ElementShortName">rom_filled</obj_property>
+      <obj_property name="ObjectShortName">rom_filled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/filter" type="array">
+      <obj_property name="ElementShortName">filter[0:8]</obj_property>
+      <obj_property name="ObjectShortName">filter[0:8]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ram1_is_done" type="logic">
+      <obj_property name="ElementShortName">ram1_is_done</obj_property>
+      <obj_property name="ObjectShortName">ram1_is_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/MAC" type="array">
+      <obj_property name="ElementShortName">MAC[0:17][7:0]</obj_property>
+      <obj_property name="ObjectShortName">MAC[0:17][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/MAC_enable" type="logic">
+      <obj_property name="ElementShortName">MAC_enable</obj_property>
+      <obj_property name="ObjectShortName">MAC_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/curmin" type="other">
+      <obj_property name="ElementShortName">curmin</obj_property>
+      <obj_property name="ObjectShortName">curmin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/curmax" type="other">
+      <obj_property name="ElementShortName">curmax</obj_property>
+      <obj_property name="ObjectShortName">curmax</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/tl" type="other">
+      <obj_property name="ElementShortName">tl</obj_property>
+      <obj_property name="ObjectShortName">tl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/tm" type="other">
+      <obj_property name="ElementShortName">tm</obj_property>
+      <obj_property name="ObjectShortName">tm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/tr" type="other">
+      <obj_property name="ElementShortName">tr</obj_property>
+      <obj_property name="ObjectShortName">tr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/ml" type="other">
+      <obj_property name="ElementShortName">ml</obj_property>
+      <obj_property name="ObjectShortName">ml</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/mm" type="other">
+      <obj_property name="ElementShortName">mm</obj_property>
+      <obj_property name="ObjectShortName">mm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/mr" type="other">
+      <obj_property name="ElementShortName">mr</obj_property>
+      <obj_property name="ObjectShortName">mr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/bl" type="other">
+      <obj_property name="ElementShortName">bl</obj_property>
+      <obj_property name="ObjectShortName">bl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/bm" type="other">
+      <obj_property name="ElementShortName">bm</obj_property>
+      <obj_property name="ObjectShortName">bm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/br" type="other">
+      <obj_property name="ElementShortName">br</obj_property>
+      <obj_property name="ObjectShortName">br</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/q" type="array">
+      <obj_property name="ElementShortName">q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">q[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/val" type="array">
+      <obj_property name="ElementShortName">val[20:0]</obj_property>
+      <obj_property name="ObjectShortName">val[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/t" type="logic">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

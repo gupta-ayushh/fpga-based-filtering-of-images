@@ -1,0 +1,481 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Wed Nov 15 11:39:31 2023
+# Process ID: 4996
+# Current directory: D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1
+# Command line: vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
+# Log file: D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/FSM.vds
+# Journal file: D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1\vivado.jou
+# Running On: LAPTOP-VIVUDSP5, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 33492 MB
+#-----------------------------------------------------------
+source FSM.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/utils_1/imports/synth_1/F.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/utils_1/imports/synth_1/F.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FSM -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15188
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1279.352 ; gain = 409.605
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FSM' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:18]
+INFO: [Synth 8-3491] module 'dist_mem_gen_3' declared at 'D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/dist_mem_gen_3_stub.vhdl:6' bound to instance 'uut1' of component 'dist_mem_gen_3' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_3' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/dist_mem_gen_3_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'filterROM' declared at 'D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/filterROM_stub.vhdl:6' bound to instance 'uut2' of component 'filterROM' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'filterROM' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/filterROM_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'dist_mem_gen_1' declared at 'D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/dist_mem_gen_1_stub.vhdl:6' bound to instance 'uut3' of component 'dist_mem_gen_1' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_1' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/.Xil/Vivado-4996-LAPTOP-VIVUDSP5/realtime/dist_mem_gen_1_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'MACModule' declared at 'D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/Compute_Module.vhd:15' bound to instance 'uut4' of component 'MACModule' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'MACModule' [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/Compute_Module.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'MACModule' (0#1) [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/Compute_Module.vhd:25]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:167]
+WARNING: [Synth 8-614] signal 'grad_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:352]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:397]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:397]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:417]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:417]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:438]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:438]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:457]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:457]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:477]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:477]
+WARNING: [Synth 8-614] signal 'write_enable' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:494]
+WARNING: [Synth 8-614] signal 'norm_done' is read in the process but is not in the sensitivity list [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:494]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (0#1) [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:18]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1429.266 ; gain = 559.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1429.266 ; gain = 559.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1429.266 ; gain = 559.520
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1429.266 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1/dist_mem_gen_1_in_context.xdc] for cell 'uut3'
+Finished Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1/dist_mem_gen_1_in_context.xdc] for cell 'uut3'
+Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/dist_mem_gen_3/dist_mem_gen_3/dist_mem_gen_3_in_context.xdc] for cell 'uut1'
+Finished Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/dist_mem_gen_3/dist_mem_gen_3/dist_mem_gen_3_in_context.xdc] for cell 'uut1'
+Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/filterROM_1/filterROM/filterROM_in_context.xdc] for cell 'uut2'
+Finished Parsing XDC File [d:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.gen/sources_1/ip/filterROM_1/filterROM/filterROM_in_context.xdc] for cell 'uut2'
+Parsing XDC File [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/basys3.xdc]
+WARNING: [Vivado 12-4382] DRC UTLZ-1 may not be disabled [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/basys3.xdc:7]
+Finished Parsing XDC File [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FSM_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FSM_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1530.062 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1530.062 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'uut1' at clock pin 'clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'uut2' at clock pin 'clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for uut3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for uut1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for uut2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/utils_1/imports/synth_1/F.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 10    
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   31 Bit       Adders := 2     
+	   9 Input   21 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 146   
+	               21 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 10    
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	               9x32  Multipliers := 1     
++---RAMs : 
+	              84K Bit	(4096 X 21 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 10    
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 2     
+	   2 Input   21 Bit        Muxes := 7     
+	   6 Input   21 Bit        Muxes := 1     
+	   3 Input   21 Bit        Muxes := 2     
+	   5 Input   21 Bit        Muxes := 3     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 2     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    7 Bit        Muxes := 2     
+	   5 Input    7 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   3 Input    4 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 12    
+	   2 Input    1 Bit        Muxes := 49    
+	   5 Input    1 Bit        Muxes := 9     
+	   4 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[0]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[1]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[2]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[3]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[4]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[5]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[6]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[7]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[8]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[9]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[10]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[11]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[12]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[13]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[14]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[15]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[16]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[17]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[18]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[19]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[20]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[21]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[22]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[23]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[24]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[25]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[26]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[27]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[28]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[29]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[30]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[31]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[32]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[33]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[34]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[35]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[36]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[37]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[38]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[39]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[40]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[41]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[42]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[43]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[44]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[45]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[46]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[47]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[48]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[49]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[50]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[51]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[52]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[53]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[54]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[55]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[56]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[57]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[58]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[59]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[60]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[61]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[62]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[63]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[64]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[65]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[66]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[67]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[68]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[69]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[70]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[71]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[72]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[73]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[74]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[75]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[76]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[77]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[78]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[79]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[80]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[81]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[82]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[83]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[84]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[85]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[86]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[87]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[88]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[89]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[90]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[91]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[92]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[93]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[94]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[95]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[96]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[97]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[98]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shift_reg_reg[99]' and it is trimmed from '32' to '8' bits. [D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.srcs/sources_1/new/FSM2.vhd:190]
+INFO: [Common 17-14] Message 'Synth 8-3936' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------+-----------+----------------------+----------------+
+|FSM         | ram_register_reg | Implied   | 4 K x 21             | RAM64M x 2688  | 
++------------+------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------+-----------+----------------------+----------------+
+|FSM         | ram_register_reg | Implied   | 4 K x 21             | RAM64M x 2688  | 
++------------+------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|FSM         | shift_reg_reg[68][7] | 64     | 16    | NO           | NO                 | YES               | 0      | 32      | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dist_mem_gen_3 |         1|
+|2     |filterROM      |         1|
+|3     |dist_mem_gen_1 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |dist_mem_gen_1_bbox |     1|
+|2     |dist_mem_gen_3_bbox |     1|
+|3     |filterROM_bbox      |     1|
+|4     |BUFG                |     2|
+|5     |CARRY4              |   611|
+|6     |LUT1                |   157|
+|7     |LUT2                |   870|
+|8     |LUT3                |   536|
+|9     |LUT4                |   366|
+|10    |LUT5                |  1118|
+|11    |LUT6                |  2489|
+|12    |MUXF7               |   860|
+|13    |MUXF8               |   336|
+|14    |RAM64M              |  2247|
+|15    |SRLC32E             |    32|
+|16    |FDCE                |    71|
+|17    |FDRE                |   527|
+|18    |IBUF                |     2|
+|19    |OBUF                |    14|
++------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 135 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 1530.316 ; gain = 559.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 1530.316 ; gain = 660.570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.165 . Memory (MB): peak = 1530.316 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4054 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1530.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2247 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 2247 instances
+
+Synth Design complete | Checksum: 54f0cdca
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 126 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1530.316 ; gain = 1042.129
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Abhishek_Folder/College/Sem_3/COL215/Assignments/Hardware/hw3_4nov/hw3_4nov.runs/synth_1/FSM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FSM_utilization_synth.rpt -pb FSM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 11:40:27 2023...
